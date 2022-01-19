@@ -60,8 +60,8 @@ function reloadGrid() {
 	  if (mode === 'rainbow') {
 	  	rainbowEffect();
 	  } else if (mode === 'eraser') {
-	  	eraser()
-	  } else {
+	  	eraser();
+	  } else if (mode === 'color'){
 	  	colorMode();
 	  }
 	});
@@ -103,8 +103,6 @@ function colorMode () {
 	});
 
   colorPicker.addEventListener('change', colorMode);
-
-	console.log(color);
 
 	mode = 'color';
 }
