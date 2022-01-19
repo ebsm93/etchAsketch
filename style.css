@@ -1,0 +1,103 @@
+
+body {
+  background-color: lemonchiffon;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+h1 {
+  text-decoration-line: underline;
+  margin-left: 250px;
+}
+
+#mid-section {
+  flex: 1;
+	display: flex;
+	gap:  40px;
+
+}
+
+#settings {
+  flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
+}
+
+button {
+  height: 7%;
+	width: 90%;
+	font-size: 20px;
+	box-shadow: rgb(0 0 0 / 74%) 0px 3px 8px;
+	border-radius: 5px;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+label {
+	text-align: center;
+	margin-bottom: -40px;
+	text-decoration: underline;
+	font-size: 20px;
+	font-family: monospace;
+}
+
+#colorPicker {
+  border: none;
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+  padding: 5px;
+  background-color: lemonchiffon;
+}
+
+#sizeSlider {
+  width: 110%;
+}
+
+#sizeSlider:hover {
+  width: 130%;
+}
+
+#mainBox {
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+  box-shadow: rgb(0 0 0 / 74%) 0px 3px 8px;
+  width: 780px;
+  height: 700px;
+
+
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 0px;
+}
+
+.row {
+  flex: 1;
+  padding: 0px;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 0px;
+}
+
+.box {
+  flex: 1;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+
+#credits {
+  text-align: center;
+}

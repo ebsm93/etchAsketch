@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ETCH A SKETCH</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="etch.js" defer></script>
+</head>
+<body>
+  <h1 id="title">ETCH A SKETCH</h1>
+
+  <div id="mid-section">
+  	<div id="settings">
+  	  <input id="colorPicker" type="color" value="#333333">
+  	  <button id="colorBtn">Color mode</button>
+      <button id="rainbowBtn">Rainbow mode</button>
+      <button id="eraserBtn">Eraser</button>
+      <button id="clearBtn">CLEAR</button>	
+      <label for="sizeSlider"> Set Grid Density</label>
+  	  <input id="sizeSlider" type="range" value="16" min="1" max="100">
+  	</div>
+    <div id="mainBox" class="grid"> </div>
+  </div>
+  <div id="credits">
+    <br>
+    <br>
+    <br>by ebs
+    <br>The Odin Project
+    <br>01.18.2022
+  </div>
+  
+</body>
+</html>
